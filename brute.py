@@ -98,9 +98,9 @@ def pro_dev(ival):
 	  	dev_iv = dev.content
 	  	jsl = json.loads(dev_iv)
 	  	if "session_key" in dev_iv:
-	  		print "\033[96;1m  [\033[92;1mOK√\033[96;1m] " +'\033[97;1m'+ iqbal + '\033[96;1m |\033[97;1m '+ iqu
+	  		print "\033[96;1m  [\033[92;1mSuc\033[96;1m] " +'\033[97;1m'+ iqbal + '\033[96;1m |\033[97;1m '+ iqu
   	  	elif "www.facebook.com" in jsl["error_msg"]:
- 			print "\033[96;1m  [\033[92;1mOK√\033[96;1m] " +'\033[97;1m'+ iqbal + '\033[96;1m |\033[92;1m '+ iqu
+ 			print "\033[96;1m  [\033[92;1mSuc\033[96;1m] " +'\033[97;1m'+ iqbal + '\033[96;1m |\033[92;1m '+ iqu
 
 	  	else:
 	  		pass
