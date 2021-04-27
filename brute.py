@@ -20,7 +20,7 @@ except ImportError:
 	os.system("pip install PTable" if os.name == 'nt' else 'pip2 install PTable')
 	
 import requests, json
-from br import brute
+from import brute
 from multiprocessing import Process
 from multiprocessing.pool import Process, ThreadPool
 from useragents import baner, multi_ban, deviv, divev, download
